@@ -24,7 +24,7 @@ function loaded() {
 }
 async function textToSpeechApi() {
     const encodedParams = new URLSearchParams();
-    encodedParams.append("voice_code", "en-US-1");
+    encodedParams.append("voice_code", "en-IN-2");
     encodedParams.append("text", joke);
     encodedParams.append("speed", "1.00");
     encodedParams.append("pitch", "1.00");
